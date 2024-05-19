@@ -1,0 +1,8 @@
+<launch>
+    <node pkg="adaptive_landmarks" type="adaptive_color_node.py" name="adaptive_color_node" output="screen">
+        <param name="camera_topic" value="/loco_cams/left/image_raw"/>
+    </node>
+    <node pkg="adaptive_landmarks" type="blob_detector_node.py" name="blob_detector_node" output="screen">
+        <param name="camera_topic" value="/loco_cams/left/image_raw"/>
+    </node>
+</launch>

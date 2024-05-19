@@ -1,0 +1,4 @@
+<launch>
+	<node pkg="loco_pilot" type="pilot.py" name="pilot_base"/>
+	<node pkg="loco_pilot" type="motion_primatives_server.py" name="motion_primative_controller"/>
+</launch>

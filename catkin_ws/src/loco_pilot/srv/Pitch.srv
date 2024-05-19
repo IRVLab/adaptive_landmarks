@@ -1,0 +1,5 @@
+float64 duration # in seconds, duration of thrust. Use this or angle, not both. If both are provided, defaults to using duration.
+float64 angle # pitch angle, in degrees (-180, 180)
+float64 thrust # -1.0 to 1.0, percentage of thrust.
+---
+bool success

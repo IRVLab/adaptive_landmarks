@@ -1,0 +1,3 @@
+<launch>
+	<node pkg="loco_pilot" type="pilot.py" name="pilot_base"/>
+</launch>

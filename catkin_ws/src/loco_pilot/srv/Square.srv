@@ -1,0 +1,7 @@
+float64 sideA # in meteers, distance of one side of the square. If only sideA is provided, defaults to using for all sides.
+float64 sideB # in meters, distance of one side of the square. If sideB is provided, it will be the length of the side
+            # after the first turn, and the side parallel to it.
+float64 thrust
+bool right # Right turns or left turns for the square. Defaults to right turns if not provided.
+---
+bool success
